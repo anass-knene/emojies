@@ -11,6 +11,9 @@
     border-radius: 20px;
     margin-bottom: 20px;
     outline: none;
+    &:hover {
+      border: 3px rgb(110, 196, 236) solid;
+    }
   }
 }
 .emoji {
@@ -18,7 +21,6 @@
   flex-wrap: wrap;
   width: 80%;
   margin: 0 auto;
-  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 .emojiList {
   width: 200px;
@@ -29,4 +31,8 @@
   font-size: 30px;
   display: grid;
   place-items: center;
+  &:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  }
 }
